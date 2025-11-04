@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  position: relative;
+  min-width: 240px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 32px;
+  height: 32px;
+  color: var(--color-white);
+}
+
+.input {
+  height: 40px;
+  background-color: var(--primary-green);
+  border: none;
+  outline: none;
+  padding-left: 50px;
+
+  &::placeholder {
+    color: var(--color-white);
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+  &:hover::placeholder,
+  &:focus::placeholder {
+    opacity: 1;
+  }
+}
+
+.inputTextBlock {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-bold);
+  background-color: var(--primary-soft-red);
+}
