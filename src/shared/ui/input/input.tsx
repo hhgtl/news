@@ -12,9 +12,10 @@ type Props = {
 
 export const Input = ({ value, onChange, fullWidth, className, ref }: Props) => {
     return (
-        <div className={clsx(s.container, className && className)}>
+        <div className={clsx(s.container, fullWidth && s.fullWidth, className && className)}>
             <img className={clsx(s.searchIcon)} src={search} alt="пошук" />
             <input
+                name={'пошук'}
                 ref={ref}
                 onChange={onChange}
                 value={value}

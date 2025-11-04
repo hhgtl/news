@@ -2,6 +2,10 @@
   display: flex;
   position: relative;
   min-width: 240px;
+  height: 40px;
+  &.fullWidth {
+    width: 100%;
+  }
 }
 
 .searchIcon {
@@ -14,7 +18,6 @@
 }
 
 .input {
-  height: 40px;
   background-color: var(--primary-green);
   border: none;
   outline: none;
