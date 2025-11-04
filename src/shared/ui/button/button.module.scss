@@ -1,0 +1,17 @@
+.button {
+  padding: 8px 22px;
+  font-size: var(--font-size-xs);
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-dark-grey);
+  cursor: pointer;
+  transition: 0.1s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    background-color: var(--primary-green);
+  }
+}
