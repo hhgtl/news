@@ -1,0 +1,1 @@
+export {navBarSlice} from './nav-tabs-slice.ts'

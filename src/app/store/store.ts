@@ -1,9 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit"
 import {useDispatch, useSelector} from "react-redux";
+import {navBarSlice} from "@/features/nav-tabs/model";
 import {baseApi} from "@/shared/api";
 
 export const store = configureStore({
-    reducer: {},
+    reducer: {
+        [baseApi.reducerPath]: baseApi.reducer,
+        [navBarSlice.name]: navBarSlice.reducer,
+    },
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware().concat(baseApi.middleware),
 })

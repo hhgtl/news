@@ -7,6 +7,7 @@ export const baseApi = createApi({
             baseUrl: import.meta.env.VITE_BASE_URL,
             prepareHeaders: (headers) => {
                 headers.set("API-KEY", import.meta.env.VITE_API_KEY)
+                return headers
             },
         })(args, api, extraOptions)
 
