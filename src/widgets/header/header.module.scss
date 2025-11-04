@@ -1,0 +1,20 @@
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  gap: 20px;
+  @media screen and (width < 768px) {
+    flex-direction: column;
+  }
+
+}
+
+.title {
+  flex-shrink: 0;
+  font-size: clamp(var(--font-size-l), 8vw , var(--font-size-xl));
+}
+
+.input {
+  max-width: 750px;
+}
