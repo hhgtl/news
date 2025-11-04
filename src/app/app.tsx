@@ -1,4 +1,4 @@
-import {Header} from "@/widgets/header/header.tsx";
+import {Header} from "@/widgets";
 import s from './app.module.scss'
 
 function App() {
