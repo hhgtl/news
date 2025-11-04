@@ -1,0 +1,22 @@
+.root {
+  &.fullWidth {
+    width: 100%;
+    background-color: var(--color-dark-grey);
+  }
+}
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.trigger {
+  padding: 20px 16px;
+  background-color: var(--color-dark-grey);
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-semi-bold);
+  &[aria-selected=true] {
+    background-color: var(--primary-green);
+  }
+}
