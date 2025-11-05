@@ -1,4 +1,5 @@
 .container {
+  margin-bottom: 25px;
   display: flex;
   flex-wrap: wrap;
   @media screen and (width < 1240px) {
@@ -34,7 +35,7 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-l);
   color: var(--color-black);
   font-weight: var(--font-weight-bold);
 }

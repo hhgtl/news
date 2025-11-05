@@ -1,12 +1,9 @@
 .footer {
-  height: 200px;
+  height: 120px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   background-color: var(--color-black);
 }
 .title {
