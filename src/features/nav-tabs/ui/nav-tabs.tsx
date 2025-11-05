@@ -12,10 +12,14 @@ type Tab = {
 }
 
 const tabs: Tab[] = [
-    {title: 'Світ', value: 'world'},
-    {title: 'Спорт', value: 'sport'},
-    {title: 'Технології', value: 'tech'},
-    {title: 'Здоровя', value: 'health'}]
+    { title: 'General', value: 'general' },
+    { title: 'Entertainment', value: 'entertainment' },
+    { title: 'Business', value: 'business' },
+    { title: 'Health', value: 'health' },
+    { title: 'Science', value: 'science' },
+    { title: 'Sports', value: 'sports' },
+    { title: 'Technology', value: 'technology' }
+]
 
 
 export const NavTabs = () => {

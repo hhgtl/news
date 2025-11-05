@@ -1,13 +1,13 @@
 import {createSlice, type PayloadAction} from '@reduxjs/toolkit'
 
-export type ValueType = 'world' | 'sport' | 'tech' | 'health'
+export type ValueType = 'general' |'entertainment' | 'business' | 'health' | 'science' | 'sports' | 'technology'
 
 export type initialStateType = {
     currentTabValue: ValueType
 }
 
 const initialState: initialStateType = {
-    currentTabValue: 'world',
+    currentTabValue: 'general',
 }
 
 export const navBarSlice = createSlice({
