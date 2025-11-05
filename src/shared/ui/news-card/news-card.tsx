@@ -20,7 +20,7 @@ export const NewsCard = ({variant, article, background = 'light'}: Props) => {
     return (
         <div className={clsx(s.card, s[background], s[myVariant])}>
             {variant !== 'onlyText' && urlToImage && <div className={s.imgWrapper}>
-                <img className={s.image} src={urlToImage} alt={title} />
+                <img loading="lazy" className={s.image} src={urlToImage} alt={title} />
                 <div className={s.overlay}></div>
             </div>}
 
