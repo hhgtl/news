@@ -4,13 +4,13 @@ import search from '@/shared/assets/icons/search.svg'
 
 import s from './input.module.scss'
 
-type Props = {
+export type InputProps = {
     value?: string
     fullWidth?: boolean
     onChange?: (event: ChangeEvent<HTMLInputElement>) => void
 } & ComponentPropsWithRef<'input'>
 
-export const Input = ({ value, onChange, fullWidth, className, ref }: Props) => {
+export const Input = ({ value, onChange, fullWidth, className, ref }: InputProps) => {
     return (
         <div className={clsx(s.container, fullWidth && s.fullWidth, className && className)}>
             <img className={clsx(s.searchIcon)} src={search} alt="пошук" />
