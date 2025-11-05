@@ -1,3 +1,5 @@
 export * from './tabs'
 export * from './input'
 export * from './button'
+export * from './news-card'
+export * from './loader'
