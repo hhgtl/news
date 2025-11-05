@@ -5,4 +5,3 @@
 🔗 RTK Query – для роботи з API та кешування запитів  
 🎨 SASS / SCSS – для модульного, масштабованого стилювання  
 🌍 NewsAPI – як джерело реальних новин  
-🌐 Github pages: https://hhgtl.github.io/news/  
