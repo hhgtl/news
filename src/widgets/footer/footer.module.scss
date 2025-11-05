@@ -1,0 +1,17 @@
+.footer {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-black);
+}
+.title {
+  font-size: var(--font-size-xl);
+}
+.author {
+  font-size: var(--font-size-m);
+}
